@@ -538,16 +538,21 @@ section h3.section-subheading {
   margin-bottom: 50px;
 }
 .team-member img {
+
+   float:none;
   margin: 0 auto;
-  border: 7px solid white;
+    height: 250px;
+    width: 200px;
+  border: 10px solid #fed136;
 }
 .team-member h4 {
+    float:none;
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
 }
 .team-member p {
-  margin-top: 0;
+  margin-top: 0px;
 }
 aside.clients img {
   margin: 50px auto;
@@ -573,6 +578,7 @@ section#contact .form-group input.form-control {
 }
 section#contact .form-group textarea.form-control {
   height: 236px;
+    width: 400px;
 }
 section#contact .form-control:focus {
   border-color: #fed136;
